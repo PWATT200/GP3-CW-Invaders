@@ -22,7 +22,7 @@ bool windowOGL::initOGL()
 	onResize(1024, 768);
 	
 	if (isFoged){
-		//Fog (*http://content.gpwiki.org/index.php/OpenGL:Tutorials:Tutorial_Framework:Light_and_Fog)
+		//Fog 
 		glEnable(GL_FOG);
 		glFogfv(GL_FOG_COLOR, fogColor);
 		glFogi(GL_FOG_MODE, GL_LINEAR);
